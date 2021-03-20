@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+    max-width: 1024px;
+    margin: auto;
+    background-color: beige;
+    border: 3px snow;
+}
+
+nav {
+    color: blueviolet;
+    padding: 100px;
+}
+
+ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li1 {
+    float: left;
+}
+
+li1 a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li1 a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: cyan;
+}
+
+
+button {
+    background-color: #E7C14E;
+    border: #bbbbbb;
+    border: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+header {
+    color: black;
+
+}
+
+headerLogin {
+    text-transform: uppercase;
+    color: black;
+}
+
+
+img {
+    padding: 20px;
+
+}
+
+.mainContainer {
+    width: 100%;
+    alignment: left;
+    padding: 2px;
+    border: darkred;
+}
+
+aside {
+    width: 40%;
+    float: left;
+    padding: 4px;
+    position: relative;
+    margin-right: 4px;
+    margin-left: 700px;
+    overflow: auto;
+    border-radius: 10px;
+
+
+}
+
+.column1 {
+    float: left;
+    width: 67%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    border: blue;
+
+}
+
+h1 {
+    color: #111111;
+    text-align: initial;
+}
+
+h2, h3 {
+    color: black;
+}
+
+h4, h5 {
+    color: darkslategray;
+}
+
+.formStyle {
+    border-radius: 50px;
+    border: 4px solid black;
+    padding: 2px;
+    text-align: left;
+
+}
+
+.buttonReset {
+    background-color: gray;
+    border-radius: 4px;
+    color: plum;
+
+}
+
+.buttonSignIn {
+    background-color: blue;
+    border-radius: 4px;
+    color: plum;
+
+}
+
+.footer {
+    color: dimgrey;
+    padding: 50px 80px;
+    text-align: center;
+}
